@@ -1,0 +1,2 @@
+curl http://localhost:3000/api/gifts/6a902112906b5e8efafb306a
+{"_id":"6a902112906b5e8efafb306a","title":"Sofa","category":"Furniture","description":"Used sofa in good condition"}
