@@ -1,0 +1,16 @@
+GiftLink API Tests
+
+1. Get all gifts:
+curl http://localhost:3000/api/gifts
+
+2. Search gifts:
+curl "http://localhost:3000/api/search?q=Furniture"
+
+3. Register:
+POST /api/auth/register
+
+4. Login:
+POST /api/auth/login
+
+5. Update user:
+PUT /api/auth/users/:id
