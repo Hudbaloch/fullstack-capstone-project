@@ -1,0 +1,7 @@
+Login API Test
+
+Command:
+curl -X POST http://localhost:3000/api/auth/login -H "Content-Type: application/json" -d '{"email":"testuser9@example.com","password":"Test@12345"}'
+
+Result:
+{"message":"Login successful","token":"[TOKEN]"}
