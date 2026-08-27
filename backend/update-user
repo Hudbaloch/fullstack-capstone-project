@@ -1,0 +1,7 @@
+Update User API
+
+Endpoint:
+PUT /api/auth/users/:id
+
+Example:
+curl -X PUT http://localhost:3000/api/auth/users/6a9037ff94d72e75c62080fb -H "Content-Type: application/json" -d '{"name":"Updated User","email":"updated@example.com"}'
