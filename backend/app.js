@@ -6,6 +6,9 @@ const searchRoutes = require("./searchRoutes");
 
 const app = express();
 
+const authRoutes = require("./authRoutes");
+app.use(authRoutes);
+
 app.use(cors());
 app.use(express.json());
 
